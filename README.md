@@ -1,15 +1,12 @@
 # ColorPop
 ## Converts a bitmap to grayscale, leaving out one color.
-
-The program converts a photo (.BMP), to grayscale, leaving out one color, which remains in its original hue. In fact, what is left is not exactly one color, but a range of colors that are in the neighborhood of that one color.
-
-#### C++ and Assembly implementation with benchmarks
+Visual Studio solution consists of 3 projects: GUI and 2 DLL implementations: C++ and Assembly **with AVX2**
 
 In the window you can change the settings:
+- choose image to be processed: 3 test images attached or any image from disk
 - choose the color you want to keep on the image
-- the choice of algorithm implementation: assembler or C++
+- choose algorithm implementation: C++ or assembler
 - choose the number of threads
-- choice of image to be processed: 3 test images attached or any image from disk
 
 ![image](https://user-images.githubusercontent.com/20531317/152339309-ca1d7e11-4341-449a-9492-df76ee1e94eb.png)
 
